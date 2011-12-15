@@ -11,7 +11,7 @@ It's been extracted from an app I've been writing to help keep track of your car
 
 Where to get it
 ---
-chrishulbert.gi....TODO
+[github.com/chrishulbert/CHDropboxSync](https://github.com/chrishulbert/CHDropboxSync)
 
 How to use
 ---
@@ -64,7 +64,7 @@ Dependencies
 Other options
 ---
 
-* There is djgrosjean's dropboxsync (PUT LINK HERE), however it does not work with the latest Dropbox API.
+* There is also jessegrosjean's [DropboxSync](https://github.com/jessegrosjean/DropboxSync), however it does not work with the latest Dropbox API. You should check it out if you're not happy with CHDropboxSync.
 
 License
 ---
