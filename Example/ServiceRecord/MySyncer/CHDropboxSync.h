@@ -13,5 +13,6 @@
 @property(assign) id delegate;
 
 - (void)doSync;
++ (void)forgetStatus;
 
 @end

@@ -12,6 +12,7 @@
 #import "ChooseVehicle.h"
 #import "Data.h"
 #import "DropboxSDK.h"
+#import "CHDropboxSync.h"
 
 @implementation AppDelegate
 
@@ -43,7 +44,8 @@
     [self.window makeKeyAndVisible];
     
     // Dropbox
-    DBSession* dbSession = [[[DBSession alloc] initWithAppKey:@"6d9a7utx3m0rpd6" appSecret:@"7h2kj40xeujy0yc" root:kDBRootAppFolder] autorelease];
+#warning Put your app-folder-type dropbox keys in here
+    DBSession* dbSession = [[[DBSession alloc] initWithAppKey:@"BLAH" appSecret:@"YADA" root:kDBRootAppFolder] autorelease];
     [DBSession setSharedSession:dbSession];    
     
     return YES;
@@ -53,6 +55,7 @@
     if ([[DBSession sharedSession] handleOpenURL:url]) {
         if ([[DBSession sharedSession] isLinked]) {
             NSLog(@"App linked successfully!");
+            [CHDropboxSync forgetStatus];
             [[NSNotificationCenter defaultCenter] postNotificationName:@"Linked" object:nil];
             // At this point you can start making API calls
         }

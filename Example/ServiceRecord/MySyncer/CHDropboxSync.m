@@ -76,6 +76,14 @@
     [super dealloc];
 }
 
+#pragma mark - Maintenance
+
+// Call this when they unlink or link their dropbox account, to forget the last sync status
++ (void)forgetStatus {
+    [[NSUserDefaults standardUserDefaults] removeObjectForKey:defaultsFiles];
+    [[NSUserDefaults standardUserDefaults] removeObjectForKey:defaultsFolders];
+}
+
 #pragma mark - Alert/progress view
 
 // Make the 'please wait' alert view

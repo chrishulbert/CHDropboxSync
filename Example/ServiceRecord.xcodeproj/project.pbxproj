@@ -129,7 +129,7 @@
 		834AF50414904EA600A28CD0 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		834AF50614904F6200A28CD0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		834AF50C14904FA800A28CD0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		834C345F147AFDAF00C5330E /* S. History.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "S. History.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		834C345F147AFDAF00C5330E /* SvcRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SvcRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		834C3463147AFDAF00C5330E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		834C3465147AFDB000C5330E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		834C3467147AFDB000C5330E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -362,7 +362,7 @@
 		834C3460147AFDAF00C5330E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				834C345F147AFDAF00C5330E /* S. History.app */,
+				834C345F147AFDAF00C5330E /* SvcRecord.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -792,7 +792,7 @@
 			);
 			name = SvcRecord;
 			productName = ServiceRecord;
-			productReference = 834C345F147AFDAF00C5330E /* S. History.app */;
+			productReference = 834C345F147AFDAF00C5330E /* SvcRecord.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
